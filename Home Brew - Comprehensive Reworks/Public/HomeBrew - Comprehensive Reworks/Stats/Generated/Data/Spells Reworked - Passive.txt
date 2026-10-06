@@ -878,32 +878,32 @@ data "Icon" "Spell_Conjuration_FlockOfFamiliars"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsKillingBlow() and Character() and not Self() and not Summon() and not SpellId('Projectile_FlamingFrenzy') and not SpellId('Projectile_FlamingFrenzy_2') and not SpellId('Projectile_FlamingFrenzy_3') and not SpellId('Projectile_FlamingFrenzy_4') and not SpellId('Projectile_FlamingFrenzy_5') and not SpellId('Projectile_FlamingFrenzy_6')"
-data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
 new entry "Feline_Frenzy_2"
 type "PassiveData"
 using "Feline_Frenzy"
-data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_2,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_2,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
 new entry "Feline_Frenzy_3"
 type "PassiveData"
 using "Feline_Frenzy"
-data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_3,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_3,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
 new entry "Feline_Frenzy_4"
 type "PassiveData"
 using "Feline_Frenzy"
-data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_4,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_4,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
 new entry "Feline_Frenzy_5"
 type "PassiveData"
 using "Feline_Frenzy"
-data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_5,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_5,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
 new entry "Feline_Frenzy_6"
 type "PassiveData"
 using "Feline_Frenzy"
-data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_6,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+data "StatsFunctors" "GROUND:Summon(174c3568-18f3-403d-b24c-55d84f5d45d1, UntilLongRest,,,,FELINEFRENZY_DEATH_6,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
 <!--FIND FAMILIAR-->
 

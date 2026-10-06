@@ -134,8 +134,6 @@ function IsTotemistElementalBeam()
     return ConditionResult(result.Result)
 end
 
-
-
 function TotemistAttuneCheck_ElementalBeamTotem()
     result =
         (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID', context.Source)
@@ -207,7 +205,7 @@ end
 function TotemistTotemCounterCheck()
     local counterCheck = StatusGroupDurationEqualOrMoreThan(
         context.Source,
-        'TOTEMIST_ELEMENTAL_BEAM_TOTEM_COUNTER',
+        'TOTEM_SUMMON_BLOCKER',
         3
     )
 
@@ -216,4 +214,13 @@ function TotemistTotemCounterCheck()
     end
 
     return ConditionResult(true)
+end
+
+function IsWildShapeSpell()
+    return SpellId('Shout_WildShape') | SpellId('Shout_WildShape_Badger') | SpellId('Shout_WildShape_Bear_Polar')
+    | SpellId('Shout_WildShape_Cat') | SpellId('Shout_WildShape_DeepRothe') | SpellId('Shout_WildShape_Dilophosaurus')
+    | SpellId('Shout_WildShape_Dire_Raven') | SpellId('Shout_WildShape_Dire_Wolf') | SpellId('Shout_WildShape_Giant_Spider')
+    | SpellId('Shout_Wildshape_SaberTooth_Tiger') | SpellId('Shout_Wildshape_Panther') | SpellId('Shout_WildShape_Owlbear')
+    | SpellId('Shout_WildShape_Myrmidon_Air') | SpellId('Shout_WildShape_Myrmidon_Earth') | SpellId('Shout_WildShape_Myrmidon_Fire')
+    | SpellId('Shout_WildShape_Myrmidon_Water') | SpellId('Shout_WildShape_DisplacerBeast') | SpellId('Shout_WildShape_BroodmarePhaseSpider')
 end

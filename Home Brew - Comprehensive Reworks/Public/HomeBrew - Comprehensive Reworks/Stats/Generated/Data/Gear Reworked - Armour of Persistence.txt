@@ -26,7 +26,7 @@ data "Icon" "Spell_Abjuration_BladeWard"
 data "StackId" "BLADE_WARD"
 data "StackPriority" "10"
 data "TickType" "EndTurn"
-data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant)"
+data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);Resistance(Cold,Resistant);Resistance(Fire,Resistant);Resistance(Lightning,Resistant);Resistance(Thunder,Resistant);Resistance(Acid,Resistant);Resistance(Poison,Resistant);Resistance(Radiant,Resistant);Resistance(Necrotic,Resistant);Resistance(Force,Resistant);Resistance(Psychic,Resistant)"
 data "StatusPropertyFlags" "IgnoreResting;ApplyToDead"
 
 new entry "RESISTANCE_ARMOUR"

@@ -97,7 +97,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CAPTIVATION</content>
 
 	<content contentuid="h79dd9125g6a8cg4291g876eg5e7d08443ad4" version="1">Captivation</content>
-	<content contentuid="h0840706bg6708g4f1eg95b9g9ce13ff77983" version="2">Under the tutelage of fey creatures, you've mastered the craft of captivation - both positive and negative. A presence that simply cannot be ignored.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Healer/Tank</content>
+	<content contentuid="h0840706bg6708g4f1eg95b9g9ce13ff77983" version="2">Under the tutelage of fey creatures, you've mastered the craft of captivation - both positive and negative. A presence that simply cannot be ignored.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Tank</content>
 
 	<content contentuid="habfab1deg96a3g4928gbb99g29b61ef00001" version="2">Mantle of Inspiration</content>
 	<content contentuid="hacc1d957g1ef1g4debg9f26gc25bcf40000a" version="1">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, you imbue allies within [1] of you with a sense of alluringly charismatic panache, causing them to recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; each turn equal to their &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. If an ally is hit by a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; while under the effects of your &lt;LSTag Type="Status" Tooltip="MANTLEOFINSPIRATION"&gt;Mantle of Inspiration&lt;/LSTag&gt;, the attacker immediately becomes &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; for the rest of their turn.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may allow yourself and all allies within [2] of you to negate their next instance of damage taken.</content>
@@ -126,7 +126,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">LORE</content>
 
 	<content contentuid="h279a572bg826ag49e3g9223g665c354e3de1" version="1">Lore</content>
-	<content contentuid="h4d45858cg3653g4192g8076g08327ea38dc5" version="1">You pursue beauty and truth, collecting knowledge from scholarly tomes to peasants' tales, and use your gifts to hold both audiences and enemies spellbound.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="h4d45858cg3653g4192g8076g08327ea38dc5" version="1">You pursue beauty and truth, collecting knowledge from scholarly tomes to peasants' tales, and use your gifts to hold both audiences and enemies spellbound.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="he0912b6fge4b5g4b8fgbc26ge66a9a5a8a44" version="1">The Best Kept Secrets</content>
 	<content contentuid="hbf18c5f4g3952g4e08gaeb6ga9228e458848" version="1">Learn two Spells from the Magical Secrets pool per level, rather than one.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may cast a Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
@@ -151,7 +151,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">MORIENDI</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0000" version="1">Moriendi</content>
-	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000z" version="1">Death knells drum rhythmic your approach, commanding the grave to falter. Your song is one of savage necromancy, a metallic warning to those who dare to listen closely.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Summoner</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000z" version="1">Death knells drum rhythmic your approach, commanding the grave to falter. Your song is one of savage necromancy, a metallic warning to those who dare to listen closely.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Summoner</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0001" version="1">Requiescat in Pace</content>
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000a" version="1">When you deal damage to an enemy, you deal additional Necrotic damage equal to your levels in Bard. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may summon three skeletons, eternally cursed to dance to your rhythm, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; nearby enemies and afflicting them with &lt;LSTag Type="Status" Tooltip="CHILL_TOUCH"&gt;Bone Chill&lt;/LSTag&gt;.</content>
@@ -174,7 +174,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">NOSTALGIA</content>
 
 	<content contentuid="e334c34320a546bea6b4e7636363749b00000" version="1">Nostalgia</content>
-	<content contentuid="e334c34320a546bea6b4e7636363749bzzzzz" version="1">Within music lies the beating heart of nostalgia. And within that nostalgia, power is cultivated through a lifetime of experience. You manifest that experience in displays of raw intensity that only music can convey.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749bzzzzz" version="1">Within music lies the beating heart of nostalgia. And within that nostalgia, power is cultivated through a lifetime of experience. You manifest that experience in displays of raw intensity that only music can convey.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="e334c34320a546bea6b4e7636363749b00001" version="1">The Sufferer and the Witness</content>
 	<content contentuid="e334c34320a546bea6b4e7636363749b0000a" version="1">When you deal damage to an enemy, you deal additional [1]. This bonus does not apply to damage dealt with an off-hand weapon and grows in strength alongside your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may deal [2] to all enemies within [3], potentially &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberating&lt;/LSTag&gt; them.</content>
@@ -197,7 +197,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">STEEL</content>
 
 	<content contentuid="hc308e037g13c2g40e4g8997gfd8641745ea8" version="1">Steel</content>
-	<content contentuid="hdbbc023cg8d01g479ag895dg5b8ab719ec0a" version="2">A highly trained and skilled warrior, you use your prowess with words and weapons to fight and entertain in equal measure.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="hdbbc023cg8d01g479ag895dg5b8ab719ec0a" version="2">A highly trained and skilled warrior, you use your prowess with words and weapons to fight and entertain in equal measure.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf9a5422aaa1" version="1">Bardic Flourishes</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf939dkkdjje" version="1">Learn two distinct bardic combat techniques.</content>
@@ -244,9 +244,9 @@
 	<content contentuid="439cb1c55ce44da8b8f3as5d6f4545840000a" version="3">While &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532l03" version="1">Steel Cast</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59480c" version="3">Upon landing a killing blow with one of your Steelforged Flourishes, you may immediately cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Tooltip="Reaction"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59480c" version="3">Upon landing a killing blow with one of your Steelforged Flourishes, you may immediately cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f5948z3" version="1">Steel Cast</content>
-	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532lzc" version="3">Affected creature may cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;, or &lt;LSTag Tooltip="Reaction"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532lzc" version="3">Affected creature may cast a Spell without expending an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3c8eurwueffd500002" version="1">Climactic Strikes</content>
 	<content contentuid="439cb1c55ce44da8b8f3c9a8sdf9u9f50000b" version="3">Once per turn while &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performing&lt;/LSTag&gt; in combat, landing a killing blow with a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will immediately put you into a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;.</content>
@@ -254,7 +254,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">VALOUR</content>
 
 	<content contentuid="he43c3ee1gb725g4a47g902cg6727f52d77c6" version="1">Valour</content>
-	<content contentuid="h76d3ad64g7e5cg412agac20g17c5e3cb57d0" version="1">You wander the land to witness and relate the deeds of the mighty, keeping alive the memory of heroes of the past and inspiring heroes of the future.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Support</content>
+	<content contentuid="h76d3ad64g7e5cg412agac20g17c5e3cb57d0" version="1">You wander the land to witness and relate the deeds of the mighty, keeping alive the memory of heroes of the past and inspiring heroes of the future.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support</content>
 
 	<content contentuid="hbd0341e3g775bg4a92g84feg270e44176bdb" version="1">Refined Bardic Inspiration</content>
 	<content contentuid="hda0191b3gc731g48f8g8036gb222178522fb" version="1">Through determination and valour, you have refined your craft. You gain &lt;LSTag Type="Spell" Tooltip="Target_BardicInspiration_Combat"&gt;Refined Bardic Inspiration&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may grant Refined Bardic Inspiration to all allies within [1].</content>

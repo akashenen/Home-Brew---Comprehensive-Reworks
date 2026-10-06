@@ -23,7 +23,7 @@
 	<content contentuid="h8acce70bgf089gbb7agab4fg8a0db10441hb" version="1">Telekinetically throw a nearby creature or object.</content>
 
 	<content contentuid="ha22e73c2gbee2gfcc3g99b1g88d9c3687ahb" version="2">Blood Offering</content>
-	<content contentuid="haf1b657bg7880g208fg4004g9c4507a73fhb" version="1">Harm yourself in order to harm multiple enemies, or to restore the &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of multiple allies, by the same amount. The damage you take by casting this Spell cannot be reduced.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+	<content contentuid="haf1b657bg7880g208fg4004g9c4507a73fhb" version="1">Harm yourself in order to harm multiple enemies, or to restore the &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of multiple allies, by the same amount of dice. The damage you take by casting this Spell cannot be reduced.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 
 	<content contentuid="hb5748101g7abcgcd28g7880ga7aa0e60d0hb" version="2">Rend Life</content>
 	<content contentuid="h9c290d9agccb3g59a0gd636g237ab057cdhb" version="1">Rend the very essence of life from a creature, reducing their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; by [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>

@@ -13210,7 +13210,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
 					<attribute id="Name" type="LSString" value="AbjurationSchool" />
-					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_ArcaneWarden;ArcaneWard;ArcaneWard_Cast;ProjectedWard" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_ArcaneWarden;ArcaneWard;ArcaneWard_Cast;ArcaneWard_Damaged;ProjectedWard" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="9f0fd3ac-7520-45fa-9f7d-08b1ca6eacf3" />
 					<attribute id="UUID" type="guid" value="88984337-3c43-42c3-8589-3fa6501d43b8" />

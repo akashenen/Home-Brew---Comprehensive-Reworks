@@ -934,7 +934,7 @@ new entry "DamagingSpell_Limit"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCast"
-data "Conditions" "CheckRulesetModifier('b843263f-869c-4a21-960d-867091e8bd04', true) and Combat(context.Source) and IsSpell() and not IsCantrip() and not IsReactionAttack() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot')) and not HasStatus('CT_LONEWOLF_1', context.Source)"
+data "Conditions" "CheckRulesetModifier('b843263f-869c-4a21-960d-867091e8bd04', true) and Combat(context.Source) and IsSpell() and not IsCantrip() and not IsReactionAttack() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot'))"
 data "StatsFunctors" "ApplyStatus(SELF,ARCANE_BLOWBACK,100,1)"
 
 <!--MULTI HIT BLOCKER-->

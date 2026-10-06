@@ -63,7 +63,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DEATH DOMAIN</content>
 
 	<content contentuid="h695df0c5g7b1eg47a1gbc9eg7f54a0fde1b4" version="1">Death Domain</content>
-	<content contentuid="h3063c312g64f5g4715g9339g241ee234d585" version="1">You nourish your faith on forces that make dealings in death, giving rise to desolate plague and putrid necrosis alike.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="h3063c312g64f5g4715g9339g241ee234d585" version="1">You nourish your faith on forces that make dealings in death, giving rise to desolate plague and putrid necrosis alike.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 	
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00001" version="2">Corpse Party</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a670000a" version="2">Gain the ability to detonate nearby corpses, dealing Necrotic damage to all creatures in a [1] radius. This action may also target Undead creatures.&lt;br&gt;&lt;br&gt;When damaging an enemy, this action will always apply one stack of &lt;LSTag Type="Status" Tooltip="PLAGUEOFROT"&gt;Curse of Rot&lt;/LSTag&gt;.</content>
@@ -100,7 +100,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">FORGE DOMAIN</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f898f7" version="1">Forge Domain</content>
-	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" version="1">Your faith sparks divine fire lit within the firmament of your belief, smelted in an act of holy ambition. A raging inferno held in hand to strike true and just.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f254" version="1">Your faith sparks divine fire lit within the firmament of your belief, smelted in an act of holy ambition. A raging inferno held in hand to strike true and just.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89801" version="1">Divine Embers</content>
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20a" version="1">Gain the ability to call a divine hammer to your hand. As you level within Cleric, it will deal additional damage and gain new effects.&lt;br&gt;&lt;br&gt;In addition, when dealing damage to an enemy, you deal additional Fire damage equal to your levels in Cleric. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Furthermore, upon dealing Fire damage to an enemy, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
@@ -139,7 +139,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ILLUSORY DOMAIN</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00000" version="1">Illusory Domain</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" version="1">Your faith is one of occlusion and obscurity. Secrets forged in shadow, bound in rites which elude all but the most devout of followers.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Support</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" version="1">Your faith is one of occlusion and obscurity. Secrets forged in shadow, bound in rites which elude all but the most devout of followers.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Support</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00001" version="1">Veilcasting</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">Directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2]. This damage increases alongside your levels in Cleric.</content>
@@ -166,7 +166,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">LIFE DOMAIN</content>
 
 	<content contentuid="h894ae177ga1dbg4183g8b37ge3f1909dbdcf" version="1">Life Domain</content>
-	<content contentuid="hffe95a98g1b1fg4fdfg9094g8c86867e28ab" version="1">Tasked with the holy edict of preserving the body, mind, and soul, your god grants you a plethora of healing magics.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Healer/Support</content>
+	<content contentuid="hffe95a98g1b1fg4fdfg9094g8c86867e28ab" version="1">Tasked with the holy edict of preserving the body, mind, and soul, your god grants you a plethora of healing magics.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Support</content>
 
 	<content contentuid="h67fe33fdg46c1g415bg95c6g20291e26lc01" version="1">Virtuous Touch</content>
 	<content contentuid="hb803dc22g3235g468fgb4c5g4746de76lc01" version="1">Upon healing a another creature, the target regains additional &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to your level.</content>
@@ -193,7 +193,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">TEMPEST DOMAIN</content>
 
 	<content contentuid="h999d36b7gb9f4g4de2ga461g54cb03433929" version="1">Tempest Domain</content>
-	<content contentuid="h787e611egd1a7g4273gb076gcf105708e862" version="2">Your faith has made you the very thunder that quakes the black firmament, the lightning coursing through the veins of a terrible storm.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="h787e611egd1a7g4273gb076gcf105708e862" version="2">Your faith has made you the very thunder that quakes the black firmament, the lightning coursing through the veins of a terrible storm.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="ha24a3a6cg38bbg4ef4g8aa3g2a86a454tc01" version="1">Discharge</content>
 	<content contentuid="hd9f3cddag9dc3g44dfg965ag71389787tc01" version="1">Once per action, when dealing damage to a creature, you create projectiles of Cold, Lightning, or Thunder. These projectiles jump to two other enemies within [1] of your target, dealing damage equal to your levels in Cleric to all three targets.</content>
@@ -240,7 +240,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAR DOMAIN</content>
 
 	<content contentuid="haac8a040g75e2g4a7eg9da3g0f9ed34e7bba" version="1">War Domain</content>
-	<content contentuid="haf4704d6gba0bg4c46gb1eeg1740b978db08" version="3">Fortified by holy zeal, you brandish an arsenal of sacramental savagery to use against those you deem unrighteous.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="haf4704d6gba0bg4c46gb1eeg1740b978db08" version="3">Fortified by holy zeal, you brandish an arsenal of sacramental savagery to use against those you deem unrighteous.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3103c858" version="2">Radiant Strikes</content>
 	<content contentuid="hf729263eg37dcg43fbg923cg24cc642f6773" version="2">When dealing damage to an enemy, you deal an additional [1].</content>

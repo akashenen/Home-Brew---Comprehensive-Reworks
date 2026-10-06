@@ -28,7 +28,7 @@ function DistantTouchSpellCheck()
 end
 
 function ExtendedSpellCheck()
-	return HasSpellFlag(SpellFlags.Spell) & ExtendedAllowedSpells()
+	return HasSpellFlag(SpellFlags.Spell) & HasExtendableStatus() & HasDuration(StatsFunctorType.Status, 0)
 end
 
 function ExtendedAllowedSpells()

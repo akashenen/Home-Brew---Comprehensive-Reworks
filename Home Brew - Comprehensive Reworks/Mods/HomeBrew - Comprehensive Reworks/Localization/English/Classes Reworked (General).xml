@@ -449,7 +449,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zk" version="3">Affected creature has died!</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00024" version="3">Lone Wolf</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000x" version="3">While traveling alone or with just one companion, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, and your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled. Additionally, if traveling solo, you gain status immunity to &lt;LSTag Type="Status" Tooltip="ARCANE_BLOWBACK_ACTUAL"&gt;Arcane Blowback&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;Lone Wolf also applies to any creatures that you summon.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000x" version="3">While traveling alone or with just one companion, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, and your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled. Additionally, if traveling solo, you gain a +10 bonus to your Initiative, and regain the maximum amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; possible when healed.&lt;Br&gt;&lt;Br&gt;Lone Wolf also applies to any creatures that you summon.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00025" version="3">Narcoleptic</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000y" version="3">Upon starting your turn whle in combat, you have a 50% chance to gain one stack of &lt;LSTag Type="Status" Tooltip="DROWSINESS"&gt;Drowsiness&lt;/LSTag&gt;. Upon gaining three stacks of Drowsiness, you will fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. However, upon waking from a sleep-based Condition, your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
@@ -637,9 +637,11 @@
 	<content contentuid="115fb28f01e84e44b3536we568f04targetzb" version="3">Affected creature has had their control relinquished. They will attempt to target enemies from a distance while in combat though focus primarily on support.</content>
 
 	<content contentuid="115fb28f01e84e44b3536we568f4s01aura01" version="3">Relinquish Control: Summons</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s01aura0a" version="3">Relinquish control of your summoned creatures passively, allowing them to act of their own accord while in combat based on their equipment and abilities.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this ability again will toggle the effect.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s01aura0a" version="3">Relinquish control of your summoned creatures, allowing them to act of their own accord while in combat based on their equipment and abilities.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this ability again will toggle the effect.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s0horde01" version="3">Relinquish Control: Summons (Horde)</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s0horde0a" version="3">Relinquish control of your horde-based summoned creatures, allowing them to act of their own accord while in combat based on their equipment and abilities.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Casting this ability again will toggle the effect.</content>
 	<content contentuid="115fb28f01e84e44b3536we568f4s01auraz1" version="3">Relinquished Control: Summoner</content>
-	<content contentuid="115fb28f01e84e44b3536we568f4s01auraza" version="3">Affected creature's summons will act of their own accord while in combat based on their equipment and abilities.</content>
+	<content contentuid="115fb28f01e84e44b3536we568f4s01auraza" version="3">Affected creature's designated summons will act of their own accord while in combat based on their equipment and abilities.</content>
 	<content contentuid="115fb28f01e84e44b3536we568f4s01auray1" version="3">Relinquished Control: Summon</content>
 	<content contentuid="115fb28f01e84e44b3536we568f4s01auraya" version="3">Affected creature has had their control relinquished. They will attempt to target enemies while in combat based on their equipment and abilities.</content>
 
@@ -699,12 +701,12 @@
 
 	<content contentuid="hb6964c304cb94ecfbf9e855a44188a1ede99" version="1">Subclass Randomizer</content>
 
-	<content contentuid="hb30ed2d16f384cfeab24d003aceee0c00001" version="1">Artificer: Arcanist</content>
-	<content contentuid="h72cddc14e86d4ba589829b2d8c927f300002" version="1">Artificer: Artillerist</content>
-	<content contentuid="h72cddc14e86d4ba589829b2d8c95sdf00003" version="1">Artificer: Battle Synthetic</content>
-	<content contentuid="5c47cf647c2047debf86a2bf2a73b57d00001" version="1">Artificer: Grenadier</content>
-	<content contentuid="hda932ea0461d44f892254ee645d855000004" version="1">Artificer: Infused Arcsmith</content>
-	<content contentuid="hda932ea0461d44f892254ee645d855000005" version="1">Artificer: Striker</content>
+	<content contentuid="hb30ed2d16f384cfeab24d003aceee0c00001" version="1">Zetherist: Arcanist</content>
+	<content contentuid="h72cddc14e86d4ba589829b2d8c927f300002" version="1">Zetherist: Artillerist</content>
+	<content contentuid="h72cddc14e86d4ba589829b2d8c95sdf00003" version="1">Zetherist: Battle Synthetic</content>
+	<content contentuid="5c47cf647c2047debf86a2bf2a73b57d00001" version="1">Zetherist: Grenadier</content>
+	<content contentuid="hda932ea0461d44f892254ee645d855000004" version="1">Zetherist: Infused Arcsmith</content>
+	<content contentuid="hda932ea0461d44f892254ee645d855000005" version="1">Zetherist: Striker</content>
 
 	<content contentuid="hb30ed2d16f384cfeab24d003aceee0ce0744" version="1">Barbarian: Beastheart</content>
 	<content contentuid="h72cddc14e86d4ba589829b2d8c927f3d9304" version="1">Barbarian: Berserker</content>
@@ -825,7 +827,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47c350000a" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;As a Bard, you may select any Spell.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f001" version="1">Spells</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe5d0a" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;As an Artificer, you may select any Spell.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe5d0a" version="3">Spells are stronger than Cantrips, though they require &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; in order to cast.&lt;Br&gt;&lt;br&gt;As a Zetherist, you may select any Spell.</content>
 
 	<content contentuid="2308f2d16d384c75b3281d5bb3ce365d000a1" version="1">Cantrips</content>
 	<content contentuid="2308f2d16d384c75b3281d5bb3ce365d000aa" version="3">Cantrips are weaker than Spells, though they do not consume &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; when cast.</content>

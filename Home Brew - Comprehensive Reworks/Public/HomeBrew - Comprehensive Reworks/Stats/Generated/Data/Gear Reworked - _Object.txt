@@ -4046,6 +4046,7 @@ type "Object"
 using "_MagicScroll"
 data "RootTemplate" "43859a67-eb4b-4f79-9f44-f9fc28907ce5"
 data "UseCosts" "BonusActionPoint:1"
+data "MinLevel" "21"
 
 new entry "OBJ_Scroll_MagicStone"
 type "Object"

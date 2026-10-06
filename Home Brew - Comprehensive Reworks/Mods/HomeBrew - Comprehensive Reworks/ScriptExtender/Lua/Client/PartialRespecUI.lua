@@ -12,6 +12,7 @@ local POPUP_BIND_RETRY_TICKS = 20
 local MAX_AUTO_CONFIRM_ATTEMPTS = 20
 local TOAST_BASE_DURATION_MS = 6000
 local TOAST_EXTRA_LEVEL_DURATION_MS = 500
+local MAX_PASSIVE_SLOTS = 12
 
 local registered = false
 local toastGeneration = 0
@@ -28,6 +29,7 @@ local LOCA_HANDLES = {
     NoClasses = "h4c0fbf6egc03cg4114g9db7g5a83d073ccf7",
     Subclasses = "h294a397ag4d41g4d36g903eg6902f6f3441c",
     Feats = "h5f0a79b9g4348g4049g9b77g0ff34a14484a",
+    ClassPassives = "h6f3bc421g66a2g43a8gb450g95cd5c862ffb",
     ListSeparator = "h9e2ea072gc77dg475dgb36eg2d90b35ef740",
     ToastLevels = "h424602aag4ac8g437bgba0bg09b557a3a31e",
     ToastClasses = "ha2a60b34gfd95g4cd6gafa6g934565f64fa5",
@@ -35,6 +37,7 @@ local LOCA_HANDLES = {
     UnknownClass = "hca715032g6928g42e4g91ebg062f59702816",
     UnknownSubclass = "h5ea6b060g79d4g4542ga9beg674b004d3428",
     UnknownFeat = "h1fa2342eg6b09g4874gbd98g2d575b62a78a",
+    UnknownPassive = "h17481e45gd9d8g48e7ga58ag752a8cf65a78",
 }
 
 local function InterpolateFallback(template, ...)
@@ -65,7 +68,7 @@ end
 
 --- Resolves an entry to display text: localized handle first, fallback name, then "?".
 ---@param entry table|string|nil
----@param kind "Class"|"Subclass"|"Feat"
+---@param kind "Class"|"Subclass"|"Feat"|"Passive"
 ---@return string
 local function DisplayName(entry, kind)
     if type(entry) == "string" then return entry end
@@ -106,7 +109,7 @@ local function BuildClassText(classes)
 end
 
 ---@param entries table|nil
----@param kind "Subclass"|"Feat"
+---@param kind "Subclass"|"Feat"|"Passive"
 ---@return string
 local function BuildNameText(entries, kind)
     local values = {}
@@ -144,14 +147,25 @@ local function BuildSummary(summary)
     end
 
     if #(summary.Feats or {}) > 0 then
-        lines[#lines + 1] = Interpolate(
-            LOCA_HANDLES.Feats,
-            "Feats: [1]",
-            BuildNameText(summary.Feats, "Feat")
-        )
+        local heading = Interpolate(LOCA_HANDLES.Feats, "Feats: [1]", ""):gsub("[:%s]+$", "")
+        lines[#lines + 1] = heading .. "\n" .. BuildNameText(summary.Feats, "Feat")
     end
 
     return table.concat(lines, "\n")
+end
+
+---@param vm ViewModel
+---@param passives table|nil
+local function SetPassiveSlots(vm, passives)
+    passives = passives or {}
+    vm.PR_HasClassPassives = #passives > 0
+
+    for index = 1, MAX_PASSIVE_SLOTS do
+        local entry = passives[index]
+        vm["PR_Passive" .. index .. "Visible"] = entry ~= nil
+        local name = entry and DisplayName(entry, "Passive") or ""
+        vm["PR_Passive" .. index .. "Name"] = entry and (name .. (index < math.min(#passives, MAX_PASSIVE_SLOTS) and "," or "")) or ""
+    end
 end
 
 --- Renders the completion toast text (restored levels + classes kept).
@@ -182,17 +196,24 @@ end
 local function RegisterVM()
     if registered then return end
 
-    -- The popup (single-slider level picker: value N keeps levels 1-N)
-    Ext.UI.RegisterType(POPUP_VM_TYPE, {
+    local popupProperties = {
         PR_PopupVisible = { Type = "Bool", Notify = true },
         PR_SelectedLevel = { Type = "Double", Notify = true },
         PR_MaxLevel = { Type = "Double" },
         PR_Summary = { Type = "String", Notify = true },
+        PR_HasClassPassives = { Type = "Bool", Notify = true },
         PR_CurrentPlayer = { Type = "Object" },
         PR_ConfirmCommand = { Type = "Command" },
         PR_FullRespecCommand = { Type = "Command" },
         PR_LevelChangedCommand = { Type = "Command" },
-    })
+    }
+    for index = 1, MAX_PASSIVE_SLOTS do
+        popupProperties["PR_Passive" .. index .. "Visible"] = { Type = "Bool", Notify = true }
+        popupProperties["PR_Passive" .. index .. "Name"] = { Type = "String", Notify = true }
+    end
+
+    -- The popup (single-slider level picker: value N keeps levels 1-N)
+    Ext.UI.RegisterType(POPUP_VM_TYPE, popupProperties)
 
     -- The toast
     Ext.UI.RegisterType(TOAST_VM_TYPE, {
@@ -306,7 +327,9 @@ end
 ---@param levelSummaries table<integer, table>
 ---@param level integer
 local function RefreshLevelText(vm, levelSummaries, level)
-    vm.PR_Summary = BuildSummary(levelSummaries[level] or { Level = level })
+    local summary = levelSummaries[level] or { Level = level }
+    vm.PR_Summary = BuildSummary(summary)
+    SetPassiveSlots(vm, summary.ClassPassives)
 end
 
 --- Builds the popup ViewModel: slider value, summary text, and command handlers.

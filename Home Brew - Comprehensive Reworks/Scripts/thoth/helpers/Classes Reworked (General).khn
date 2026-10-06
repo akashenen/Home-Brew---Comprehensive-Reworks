@@ -290,6 +290,10 @@ function IsStrengthModifierPositive()
 	return GetModifier(context.Source.Strength) > 0
 end
 
+function IsWisdomModifierPositive()
+	return GetModifier(context.Source.Wisdom) > 0
+end
+
 function MeleeCheck()
 	return HasStringInSpellRoll('MeleeWeaponAttack') | HasStringInSpellRoll('MeleeUnarmedAttack')
 end

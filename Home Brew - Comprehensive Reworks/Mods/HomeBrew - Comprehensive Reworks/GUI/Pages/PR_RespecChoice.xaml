@@ -64,6 +64,63 @@
                                        TextWrapping="Wrap"
                                        TextAlignment="Center"
                                        Margin="0,0,0,12"/>
+                            <StackPanel Visibility="{Binding PR_HasClassPassives, Converter={StaticResource BoolToVisibleConverter}}"
+                                        HorizontalAlignment="Center" Margin="20,0,20,12">
+                                <TextBlock Text="Class Passives" HorizontalAlignment="Center"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_tint100}"
+                                           Margin="0,0,0,4"/>
+                                <WrapPanel HorizontalAlignment="Center" MaxWidth="1200">
+                                <TextBlock Text="{Binding PR_Passive1Name}"
+                                           Visibility="{Binding PR_Passive1Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive2Name}"
+                                           Visibility="{Binding PR_Passive2Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive3Name}"
+                                           Visibility="{Binding PR_Passive3Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive4Name}"
+                                           Visibility="{Binding PR_Passive4Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive5Name}"
+                                           Visibility="{Binding PR_Passive5Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive6Name}"
+                                           Visibility="{Binding PR_Passive6Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive7Name}"
+                                           Visibility="{Binding PR_Passive7Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive8Name}"
+                                           Visibility="{Binding PR_Passive8Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive9Name}"
+                                           Visibility="{Binding PR_Passive9Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive10Name}"
+                                           Visibility="{Binding PR_Passive10Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive11Name}"
+                                           Visibility="{Binding PR_Passive11Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                <TextBlock Text="{Binding PR_Passive12Name}"
+                                           Visibility="{Binding PR_Passive12Visible, Converter={StaticResource BoolToVisibleConverter}}"
+                                           FontSize="{StaticResource ScaledDefaultFontSize}" Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                           Margin="8,2"/>
+                                </WrapPanel>
+                            </StackPanel>
+
                         </StackPanel>
                     </ls:LSNineSliceImage>
 

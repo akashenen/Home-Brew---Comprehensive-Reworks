@@ -25,7 +25,7 @@
 
 	<content contentuid="hbe016590gb2f5g4fe9gaf36gddde7240410d" version="1">Way of the Arcane</content>
 	<content contentuid="hd7b3cc90g33b2g453aga78bgeb5db0093e19" version="1">Way of the Arcane</content>
-	<content contentuid="hca811246g62bbg4c39g9f3fg9abcfa4caa75" version="2">You focus your ki to bend the elements to your will, using them as an extension of your own body.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="hca811246g62bbg4c39g9f3fg9abcfa4caa75" version="2">You focus your ki to bend the elements to your will, using them as an extension of your own body.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 	<content contentuid="hb20d489bg56dfg4abfg9128gba50ebe6a4a8" version="6">This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; is considered an &lt;LSTag Tooltip="AttackRoll"&gt;Unarmed Attack Roll&lt;/LSTag&gt;. As such, it rolls using your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, depending on which is higher.</content>
 
 	<content contentuid="h6fd86334ge5e3g47d0gb00fg7b0s2e2f1e52" version="2">Arcane Flurry</content>
@@ -123,7 +123,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE DRUNKEN FIST</content>
 
 	<content contentuid="h392ca1c2g2438g40c6ga3e6ge2b15b83f947" version="1">Way of the Drunken Fist</content>
-	<content contentuid="hf8c35f5fg841eg4cbegaec6gf45dc0ad011e" version="1">With the unpredictable lurches of a tippler, you sway through every battle, frustrating foes with carefully executed movements concealed beneath a façade of incompetence.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="hf8c35f5fg841eg4cbegaec6gf45dc0ad011e" version="1">With the unpredictable lurches of a tippler, you sway through every battle, frustrating foes with carefully executed movements concealed beneath a façade of incompetence.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f00001" version="1">Flurry of Blows: Intoxicating</content>
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f0000a" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt;, deliver two hits in rapid succession. If your target is Inebriated, this action will potentially knock them &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for one turn, removing the condition.</content>
@@ -157,7 +157,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE GENTLE FIST</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00000" version="1">Way of the Gentle Fist</content>
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" version="1">Through harmony, your guiding hands provide relief. Through practiced inner peace, those around you are blessed with a calming sense of solidarity.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Healer</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" version="1">Through harmony, your guiding hands provide relief. Through practiced inner peace, those around you are blessed with a calming sense of solidarity.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Healer</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00002" version="1">Mending Blows</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000b" version="1">You are considered to be a priority target. This can be toggled at any time.&lt;br&gt;&lt;br&gt;In addition, each turn, and when dealing melee damage to an enemy, you heal yourself and all allies within [1] of your target for an amount equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
@@ -181,8 +181,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE OPEN HAND</content>
 
-	<content contentuid="h29ded009g66f1g4448g8fceg68452f0b4c5d" version="1">You specialise in unarmed combat, using your hands and your control of ki to inflict grievous wounds.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
-	<content contentuid="h3cf42f71g6a06g4e7ag9c4fge283255a4bc4" version="2">You specialise in unarmed combat, using your hands and your control of ki to inflict grievous wounds.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="h29ded009g66f1g4448g8fceg68452f0b4c5d" version="1">You specialise in unarmed combat, using your hands and your control of ki to inflict grievous wounds.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
+	<content contentuid="h3cf42f71g6a06g4e7ag9c4fge283255a4bc4" version="2">You specialise in unarmed combat, using your hands and your control of ki to inflict grievous wounds.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h82f6ed54g78a2g4a1fga040g44dba16sd5f8" version="2">Open Combat</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgcd1cb42d5f45" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Knock"&gt;Flurry of Blows: Topple&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_NoReactions"&gt;Flurry of Blows: Stagger&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_OpenHandTechnique_Push"&gt;Flurry of Blows: Push&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt;.</content>
@@ -227,7 +227,7 @@
 
 	<content contentuid="h05e1db8ag8572g4908ga042gffda9f365c57" version="1">Way of the Shadow Arts</content>
 	<content contentuid="h28328e2eg7c83g4436gae8bgdddb6d09a2bf" version="1">Way of the Shadow Arts</content>
-	<content contentuid="hb783e700ga178g434eg9843g2f441cac38a8" version="3">You value the arts of stealth and subterfuge, bending the shadows to your will to strike without warning.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="hb783e700ga178g434eg9843g2f441cac38a8" version="3">You value the arts of stealth and subterfuge, bending the shadows to your will to strike without warning.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h82f6ed54g78a2g4a1fga040g44666d8f99f8" version="2">Fists of Shade</content>
 	<content contentuid="hdd2d1cbbgaafdg4946gafdfgc5dffffed41e" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_ShadowStep"&gt;Shadow Step&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_CloakOfShadows_Monk"&gt;Cloak of Shadows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant"&gt;Shadow Strike&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ShadowStrike_Instant_Unarmed"&gt;Shadow Strike: Unarmed&lt;/LSTag&gt;.</content>
@@ -269,7 +269,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE TEMPERED STEEL</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500000" version="1">Way of the Tempered Steel</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" version="1">A stillness within the air around you gives pause to the most reckless of foes. You overwhelm within a cascading aura of unnerving calm - your hand resting soundly on the hilt of your weapon in subtle anticipation.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000z" version="1">A stillness within the air around you gives pause to the most reckless of foes. You overwhelm within a cascading aura of unnerving calm - your hand resting soundly on the hilt of your weapon in subtle anticipation.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500001" version="1">Tempered Discipline</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000a" version="1">Gain the ability to summon a &lt;LSTag Type="Spell" Tooltip="Shout_Summon_TemperedBlade"&gt;Tempered Blade&lt;/LSTag&gt;, which grows in strength alongside your levels in Monk. In addition, you gain the ability to perform &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;.</content>

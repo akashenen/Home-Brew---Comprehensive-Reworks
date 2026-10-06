@@ -118,7 +118,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ANCIENT WARDEN</content>
 
 	<content contentuid="h2a7352eag799cg44afgaf7cg1ad3e9fbbf42" version="1">Ancient Warden</content>
-	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" version="1">Wardens of life and light, you bind your oath to the quiet strength of nature. Where hope grows stubborn, and darkness is worn away by time, your light shines as a beacon of hope and prosperity.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Healer/Support</content>
+	<content contentuid="h7bd98082g8d1cg49b7gbdd9g5d45924e8d01" version="1">Wardens of life and light, you bind your oath to the quiet strength of nature. Where hope grows stubborn, and darkness is worn away by time, your light shines as a beacon of hope and prosperity.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Support</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8af6ad54" version="1">Ancient Judgement</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4d6asdf" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fey type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on a Fey enemy, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -156,7 +156,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CROWNED PHOENIX</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb27081e8db2" version="2">Crowned Phoenix</content>
-	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" version="2">Bound to the endless flame that is your will, you rise unbroken. Each failing serving as a spark, a promise that even in ash, the will of fire shall endure.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
+	<content contentuid="hb0043457gfdd6g470agbfd6g6594b92ca488" version="2">Bound to the endless flame that is your will, you rise unbroken. Each failing serving as a spark, a promise that even in ash, the will of fire shall endure.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb2708100001" version="2">Crowned Judgement</content>
 	<content contentuid="hf8d923abg2aeeg446agac9dgbb270810000a" version="2">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to an Aberration type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Aberration, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -189,7 +189,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DEVOUT PARAGON</content>
 
 	<content contentuid="h07d494ebg069ag42a7g8fdfge1cb3672bac5" version="1">Devout Paragon</content>
-	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" version="1">You stand as a living oath. Your blade steady, your will unyielding - a beacon of truth that knows not how to falter in the face of looming darkness.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Support</content>
+	<content contentuid="h238b6cb3gdff0g4151gbd79g2af569925479" version="1">You stand as a living oath. Your blade steady, your will unyielding - a beacon of truth that knows not how to falter in the face of looming darkness.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afasdfd" version="1">Divine Judgement</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4dwerdd" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Fiend type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Fiend, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -226,7 +226,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">OATHBOUND CRUSADER</content>
 
 	<content contentuid="h83972695g2797g49bdg8e3bga526a352143d" version="1">Oathbound Crusader</content>
-	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" version="1">You are the serrated edge of justice unyielding, relentless, and cold - vengeance embodied, living in service to those who would cry out for it.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="h573bd5d7g78ccg467cga56dg4392c97ad6ba" version="1">You are the serrated edge of justice unyielding, relentless, and cold - vengeance embodied, living in service to those who would cry out for it.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h298b9a29g5657g4aa9gaad6gad3a8afsdf98" version="1">Righteous Judgement</content>
 	<content contentuid="hb2400634gf3e4g46f1gb93dg1330e4derere" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; or dealing damage to a Undead type creature, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy Undead, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>
@@ -265,7 +265,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">OATHBREAKER</content>
 
 	<content contentuid="h1b152143g9aacg4821g8b1dg0a5c8c384b99" version="1">Oathbreaker</content>
-	<content contentuid="h23db7ea6g6882g428bg9af2g50b797dba11b" version="1">You have broken your sacred Oath in pursuit of power and ambition. Only darkness remains to fuel you now.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Summoner</content>
+	<content contentuid="h23db7ea6g6882g428bg9af2g50b797dba11b" version="1">You have broken your sacred Oath in pursuit of power and ambition. Only darkness remains to fuel you now.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Summoner</content>
 
 	<content contentuid="ha612b54dg48c5g45cegbe8fg273c791e5a41" version="1">Subjugate Creature</content>
 	<content contentuid="h7c01bf17g01deg4907gb001g8280ca511db6" version="3">Use the power of your shattered Oath to exert control over a hostile creature, influencing them to attack their allies.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal Encounters&lt;/LSTag&gt; cannot be Subjugated.</content>
@@ -305,7 +305,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">RUNIC MYSTFLAME</content>
 
 	<content contentuid="hadb7e84644854b8b9a46f5e4586197e53c25" version="1">Runic Mystflame</content>
-	<content contentuid="h130df7e8eb2d41ce90c97835520d4924917a" version="1">When sworn oaths and divine protection failed you, you instead chose to look to the arcane to keep the flame of your conviction kindled.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Support</content>
+	<content contentuid="h130df7e8eb2d41ce90c97835520d4924917a" version="1">When sworn oaths and divine protection failed you, you instead chose to look to the arcane to keep the flame of your conviction kindled.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Support</content>
 	
 	<content contentuid="h33b21fb0973340df91b0d8f917c6c8df8d94" version="1">Spellshatter</content>
 	<content contentuid="h80920914af3a4234afd098d90988ad4a921e" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_Smite_Spellshatter"&gt;Spellshatter Smite&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Countersmite"&gt;Countersmite&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ArcaneJudgment_Class"&gt;Arcane Righteousness&lt;/LSTag&gt;.</content>
@@ -353,7 +353,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">TYRANT</content>
 
 	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080b00000" version="1">Tyrant</content>
-	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" version="1">Through fear, obedience is secured. Through absolute authority, the weak are broken and even the defiant learn their place.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" version="1">Through fear, obedience is secured. Through absolute authority, the weak are broken and even the defiant learn their place.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200001" version="1">Tyrant's Judgement</content>
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000a" version="3">When making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or dealing damage to a creature benefitting from &lt;LSTag Type="Status" Tooltip="LOCKDOWN_CONDITION"&gt;Lockdown Immunity&lt;/LSTag&gt;, roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Once per turn, upon landing a killing blow on an enemy benefitting from Lockdown Immunity, restore one &lt;LSTag Type="ActionResource" Tooltip="WarPriestActionPoint"&gt;Crusader's Smite&lt;/LSTag&gt; charge.</content>

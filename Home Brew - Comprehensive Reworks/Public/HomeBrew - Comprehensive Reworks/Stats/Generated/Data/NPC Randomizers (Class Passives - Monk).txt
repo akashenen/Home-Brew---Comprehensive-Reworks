@@ -220,7 +220,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
-data "Passives" "Harmonious_Barrages"
+data "Passives" "Harmonious_Barrage"
 
 new entry "PASSIVE10_MONK"
 type "StatusData"

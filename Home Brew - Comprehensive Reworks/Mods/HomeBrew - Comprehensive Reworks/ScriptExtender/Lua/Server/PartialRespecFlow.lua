@@ -25,10 +25,25 @@ local classDisplayNames = {}
 local featDisplayNames = {}
 local featDescriptionGuids = {}
 local featDescriptionsLoaded = false
+local passiveDisplayNames = {}
+local hbClassPassives = nil
+
+-- Exact union of the thirteen HB class-choice PassiveLists. Embedding the IDs
+-- avoids relying on PassiveList static-data exposure, which varies by SE build.
+local HB_CLASS_PASSIVE_IDS = [[AdaptivePlating;ArcaneCalibrationMatrix;AutomatedArcaneSuppression;CastleDefense;DeadZoneCalibration;ElementalPayload;EmergencyPowerCell;FailsafeInjection;IncendiaryRounds;KineticFeedbackLoop;LikeClockwork;ModularAugmentation;NaniteDispersionField;Overclocked;PrecisionRifling;RecoilCompensation;Safeguard;SpeedLoader;SyntheticActionEconomy;VitalAim;BarbarousAssault;BrutalCritical;DangerSense;DeathGlare;Faceoff;FuriousCriticals;LandsStride;OverwhelmingPower;PeakPhysicality;RageoftheMountain;RageoftheUndefeated;RagingVitality;RelentlessRage;RipandTear;RootedinAnger;TemperedRetaliation;TerrifyingBellow;UnrelentingRampage;UnarmouredBeast;UnstoppableForce;Aggressive_Rhythm;Discerning_Insult;Distracting_Dissonance;Dueling_Ditties;Echoes_of_Fortitude;Encouraging_Momentum;Engaging_Composition;Guiding_Performance;Harmonious_Aura;Infuriating_Amplification;Inspirational_Resonance;Inspiring_Crescendo;Insufferable_Discord;Melodic_Precision;Mobile_Maestro;Mocksmith;Silver_Tongued_Savant;Soothing_Words;Unprecedented_Encore;Vigorously_Tuned;Aegis;Blessed_Resolve;BloodforBlood;Consecrative_Sacrifice;Divine_Resiliance;Divine_Restoration;Ethereal_Intuition;Flames_of_Repentance;Holy_Fortitude;Guided_Strikes;Holy_Retribution;Immaculate_Ward;Martyrdom;Paradisiacal_Gift;Sacral_Bulwark;Sanctified_Presence;Sanctifying_Aura;Stalwart;Stout_Believer;Venerational_Strikes;Armour_of_Thorns;Combats_Harvest;Earthern_Sentinel;Feral_Precision;Feral_Resiliance;Ferocious_Stand;Instinctive_Transformation;Kindred_Instinct;WildShape_Combat;Natural_Bounty;Natural_Resurgence;Natures_Mercy;Natures_Wrath;Pack_Leader;Primal_Bloodletter;Primal_Surge;Primal_Takedown;Shapechangers_Versatility;Territorial_Dominance;Wild_Stride;Aspect_of_Defiance;Challengers_Call;Charge_of_the_Collective;Duellist;Full_Arsenal;Heavy_Assault;Intuitive_Warning;Ironclad;Iron_Will;Leaders_Momentum;Martial_Fortress;Martial_Reclaim;Merciless;Natural_Born_Leader;Opportunist;Proper_Form;Reckless_Abandon;Sentinels_Protection;Tactical_Retreat;Tunnel_Fighter;Counterflow;Critical_Flow;Dance_of_Flowing_Water;Deflective_Reflex;Dexterous_Ward;Fist_of_Crushing_Rock;Focused_Stream;Fortified_Psyche;Harmonious_Barrage;Harmonious_Defense;Martial_Empowerment;Mystic_Strikes;Opportune_Reversal;Resonance_of_Body;Sagacious_Resilience;Soused_Rampart;Tempestuous_Reprise;Tranquil_Fortitude;Windwaker;Zen_Accuracy;Attonement;Critical_Oath;Death_Sentence;Divine_Health;Divine_Resurgence;Divine_Sense;Divine_Shielding;Holy_Bulwark;Holy_Wrath;Infallible_Beacon;Lay_On_Hands;Oathbound_Renewal;Oath_Channeling;Principle_of_Belief;Repel_the_Damned;Resplendent_Reverb;Smite_Makes_Right;Stalwart_Eruption;Stalwart_Resolve;Visage_of_Sanctity;Ambush_Breaker;Ballistic_Infusion;Beastbonds_Precision;Beastial_Recovery;Blood_Bond;Bounty_Hunter;Close_Quarters_Shooter;Escapist;Explosive_Arrowheads;Hidden_Inventory;Marksmans_Edge;Multiattack_Defense;Natural_Huntsman;Natural_Opportunity;Protective_Bond;Sniper;Superior_Technique;Sure_Shot;Two_Weapon_Fighting;Wanton_Synergy;Cunning_Strikes;Cutthroat;Elusive_Retreat;Elusive_Shadow;Fast_Hands;Fatal_Manoeuvre;Grievous_Wounds;Illusory_Advantage;Light_Footwork;Low_Visibility;Manipulator;Now_You_See_Me;Quick_Reflexes;Reactive_Movement;Sharp_Eyes;CSpectre;Spectral_Hunter;Umbral_Sight;Vanishing_Act;Venomous;ArcaneOverflow;ArcaneOppression;ArcaneReservoir;CharismaticInfusion;CharismaticShield;DormantCharge;ElementalAfterglow;EnchantingInfluence;EphemeralBarrier;EssentialEpiphany;EvasiveWarp;LatentAcuity;MistyEscape;MysticEmpowerment;NaturalVortex;ReactiveReprise;SharedCreation;SorcerousAcumen;SorcerousFocus;VeiledSynergy;BaneofthePact;BindingTransposition;BoundElements;BoundCompulsion;CurseofHellfire;DarkRetaliation;CDevilsSight;EldritchEnervation;EldritchLethargy;EldritchPull;HellishRebuttal;HellboundVision;LuckoftheDevil;MasterofChaos;OneWithShadows;PactProtection;PactStricken;RepellingBlast;ResiliantServitude;ShadeWalker;Arcane_Interruption;Arcane_Reverb;Arcane_Shield;Boon_of_Plumes;Edict_of_Divinity;Elemental_Countercharge;Enchanted_Safeguard;Flames_Riposte;Illusory_Phantasm;Magical_Insight;Mystic_Override;Potent_Cantrips;Potent_Spells;Spellblade;Spellbound_Rebirth;Spell_Surge;Telekinetic_Command;CWarMagic;Wizards_Clarity;Woven_Precision]]
+
+local PROGRESSION_SELECTION_COMPONENTS = {
+    "ProgressionPassives",
+    "ProgressionMeta",
+    "ProgressionFeat",
+    "ProgressionReplicatedFeat",
+    "LevelUp",
+}
 
 ---@class PartialRespecDisplayName
 ---@field DisplayNameHandle string|nil
 ---@field DisplayNameFallback string
+---@field PassiveId string|nil
 
 ---@param value string
 ---@return string|nil
@@ -166,6 +181,130 @@ local function FeatDisplayName(featGuid)
     return displayName
 end
 
+--- Adds passive IDs from either an array-like value or a delimited string.
+---@param destination table<string, boolean>
+---@param value any
+local function AddPassiveIds(destination, value)
+    if type(value) == "string" then
+        for passiveId in value:gmatch("[^,;]+") do
+            passiveId = passiveId:match("^%s*(.-)%s*$")
+            if passiveId ~= "" then destination[passiveId] = true end
+        end
+    elseif type(value) == "table" then
+        for key, entry in pairs(value) do
+            if type(key) == "string" and type(entry) == "boolean" and entry then
+                destination[key] = true
+            end
+            AddPassiveIds(destination, entry)
+        end
+    end
+end
+
+--- Loads the union of the HB class-passive lists once.
+---@return table<string, boolean>
+local function GetHBClassPassives()
+    if hbClassPassives then return hbClassPassives end
+
+    hbClassPassives = {}
+    AddPassiveIds(hbClassPassives, HB_CLASS_PASSIVE_IDS)
+    return hbClassPassives
+end
+
+--- Extracts a localization handle from the PassiveData stat format.
+---@param value any
+---@return string|nil
+local function PassiveDisplayNameHandle(value)
+    if type(value) == "string" then
+        local handle = value:match("^([^;]+)")
+        if handle and handle ~= "" and not handle:find("^ResStr_") then
+            return handle
+        end
+    elseif type(value) == "table" then
+        return TranslatedDisplayNameHandle(value)
+    end
+    return nil
+end
+
+---@param passiveId string
+---@return PartialRespecDisplayName
+local function PassiveDisplayName(passiveId)
+    if passiveDisplayNames[passiveId] then
+        return passiveDisplayNames[passiveId]
+    end
+
+    local displayName = {
+        DisplayNameHandle = nil,
+        DisplayNameFallback = HumanizeResourceName(passiveId) or passiveId,
+        PassiveId = passiveId,
+    }
+    local passive = Ext.Stats.Get(passiveId)
+    if passive then
+        displayName.DisplayNameHandle = PassiveDisplayNameHandle(passive.DisplayName)
+    end
+
+    passiveDisplayNames[passiveId] = displayName
+    return displayName
+end
+
+--- Recursively finds selected passive IDs in a serialized progression component.
+---@param value any
+---@param allowed table<string, boolean>
+---@param add fun(passiveId: string)
+local function FindSelectedPassives(value, allowed, add)
+    if type(value) == "string" then
+        for passiveId in value:gmatch("[^,;]+") do
+            passiveId = passiveId:match("^%s*(.-)%s*$")
+            if allowed[passiveId] then add(passiveId) end
+        end
+    elseif type(value) == "table" then
+        for key, entry in pairs(value) do
+            if type(key) == "string" and allowed[key] then add(key) end
+            FindSelectedPassives(entry, allowed, add)
+        end
+    end
+end
+
+--- Collects only player-selected passives belonging to HB class-choice lists.
+---@param character EntityHandle
+---@param levelUps table|nil
+---@param cutoff integer
+---@return table
+local function ClassPassivesThroughLevel(character, levelUps, cutoff)
+    local results = {}
+    local seen = {}
+    local allowed = GetHBClassPassives()
+    local container = character and character.ProgressionContainer
+    local buckets = container and container.Progressions
+    if not buckets then return results end
+
+    local function Add(passiveId)
+        if seen[passiveId] then return end
+        seen[passiveId] = true
+        results[#results + 1] = PassiveDisplayName(passiveId)
+    end
+
+    for level = 1, cutoff do
+        -- CCLevelUp is the most direct record of player selections on builds
+        -- that replicate passive choices into the level-up history.
+        FindSelectedPassives(levelUps and levelUps[level], allowed, Add)
+
+        for _, progressionEntity in ipairs(buckets[level] or {}) do
+            -- SE builds expose the choice in different progression components.
+            -- Search every component capable of carrying level-up selections.
+            for _, componentName in ipairs(PROGRESSION_SELECTION_COMPONENTS) do
+                local component = progressionEntity[componentName]
+                if component then
+                    local ok, serialized = pcall(Ext.Types.Serialize, component)
+                    if ok then
+                        FindSelectedPassives(serialized, allowed, Add)
+                    end
+                end
+            end
+        end
+    end
+    return results
+end
+
 ---@param guid any
 ---@return boolean
 local function IsValidGuid(guid)
@@ -173,10 +312,11 @@ local function IsValidGuid(guid)
 end
 
 --- Summarizes classes/subclasses/feats gained through the cutoff level for the popup and toast.
+---@param character EntityHandle
 ---@param levelUps table|nil
 ---@param cutoff integer
 ---@return table
-local function BuildLevelSummary(levelUps, cutoff)
+local function BuildLevelSummary(character, levelUps, cutoff)
     local classLevels = {}
     local classOrder = {}
     local feats = {}
@@ -231,6 +371,7 @@ local function BuildLevelSummary(levelUps, cutoff)
         Classes = classes,
         Subclasses = subclasses,
         Feats = feats,
+        ClassPassives = ClassPassivesThroughLevel(character, levelUps, cutoff),
     }
 end
 
@@ -265,7 +406,7 @@ local function BeginPartialRespec(character)
     local levelSummaries = {}
     local levelUps = entity.CCLevelUp and entity.CCLevelUp.LevelUps
     for cutoff = 1, level do
-        levelSummaries[cutoff] = BuildLevelSummary(levelUps, cutoff)
+        levelSummaries[cutoff] = BuildLevelSummary(entity, levelUps, cutoff)
     end
     pendingRespec[characterGuid] = {
         level = nil,
@@ -372,7 +513,7 @@ local function ApplyReplay(entity, snapshot, targetLevel, characterGuid)
         entity:Replicate("Classes")
         PRPrint(1, "Classes recalculated: %d entries summing to %d", #newClasses, targetLevel)
 
-        local toastSummary = BuildLevelSummary(cc and cc.LevelUps, targetLevel)
+        local toastSummary = BuildLevelSummary(entity, cc and cc.LevelUps, targetLevel)
 
         entity.EocLevel.Level = targetLevel
         entity:Replicate("EocLevel")

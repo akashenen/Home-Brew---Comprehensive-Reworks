@@ -54,7 +54,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DRACONIC BLOODLINE</content>
 	
 	<content contentuid="h25454982g837eg4451g88ddgf9ea0d89187f" version="1">Draconic Bloodline</content>
-	<content contentuid="h8653dfceg5163g42e3gb4c4g5acc4dd573c8" version="2">Your veins carry draconic magic, the result of a powerful dragon ancestor.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
+	<content contentuid="h8653dfceg5163g42e3gb4c4g5acc4dd573c8" version="2">Your veins carry draconic magic, the result of a powerful dragon ancestor.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="h4ce8f1b2ga05eg462cg9504gadc7454da8d5" version="3">Draconic Half-Blood: Black</content>
 	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac5dabe" version="2">Gain the ability to spew &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Acid"&gt;Acid Breath&lt;/LSTag&gt;. When you fail an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with your Draconic breath, you still deal half damage. When dealing damage to an enemy, you deal an additional [1], equal to your levels in Sorcerer. This bonus does not apply to damage dealt with an off-hand weapon.</content>
@@ -102,7 +102,7 @@
 	<content contentuid="h68bbe23dg8336g4c12g917dgbf9c5ac5dd73" version="2">Gain the ability to use &lt;LSTag Type="Spell" Tooltip="Zone_BreathWeapon_Necrotic"&gt;Desiccating Breath&lt;/LSTag&gt;. When you fail an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with your Draconic breath, you still deal half damage. When dealing damage to an enemy, you deal an additional [1], equal to your levels in Sorcerer. This bonus does not apply to damage dealt with an off-hand weapon.</content>
 
 	<content contentuid="h2b56c3e6g3117g4d9dg84e3gff9843f2674f" version="5">Draconic Form</content>
-	<content contentuid="h6ca40c86gb30cg4c3bgb696g81b5d135fb02" version="5">Gain a bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;, or elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; and target priority, equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, depending on if you are wearing Light, Medium, or Heavy armour. In addition, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_DragonWings"&gt;Fly&lt;/LSTag&gt;.</content>
+	<content contentuid="h6ca40c86gb30cg4c3bgb696g81b5d135fb02" version="5">Gain a bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;, or elemental &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, depending on if you are wearing Light, Medium, or Heavy armour. In addition, you gain the ability to &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_DragonWings"&gt;Fly&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2b56c3e6g3117g4d9dg84e3gff9843f26702" version="5">Drakethroat</content>
 	<content contentuid="h6ca40c86gb30cg4c3bgb696g81b5d135fb0b" version="5">When dealing the type of damage associated with your Draconic Ancestry, you ignore all damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
@@ -177,7 +177,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">HEMATIC MONARCH</content>
 	
 	<content contentuid="ec1b3d593aba4e20abc695282f20a1a100000" version="1">Hematic Monarch</content>
-	<content contentuid="ec1b3d593aba4e20abc695282f20a1a1zzzzz" version="1">Hematic Monarchs wield blood as both weapon and birthright. Their art is said to descend from Kiku, Vampiric Lord of Terror, who once taught that agony and rapture are but two pulses of the same beating heart.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage
+	<content contentuid="ec1b3d593aba4e20abc695282f20a1a1zzzzz" version="1">Hematic Monarchs wield blood as both weapon and birthright. Their art is said to descend from Kiku, Vampiric Lord of Terror, who once taught that agony and rapture are but two pulses of the same beating heart.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage
 	</content>
 	
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f100001" version="1">There Will Be Blood</content>
@@ -196,7 +196,7 @@
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10zzza" version="1">Compress and condense your blood to the edge of your fingertips in order to fire a viciously fast beam of blood which leaves your targets with &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f100002" version="1">A Symphony of Red</content>
-	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10000b" version="1">Dealing physical damage forces your target to become an &lt;LSTag Type="Status" Tooltip="BLEEDING_EFFIGY"&gt;Effigy of Blood&lt;/LSTag&gt;. Only one creature may become an Effigy of Blood at a time.</content>
+	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10000b" version="1">Dealing damage forces your target to become an &lt;LSTag Type="Status" Tooltip="BLEEDING_EFFIGY"&gt;Effigy of Blood&lt;/LSTag&gt;. Only one creature may become an Effigy of Blood at a time.</content>
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f1000z2" version="1">Effigy of Blood</content>
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f1000zb" version="1">Affected creature loses 10% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
@@ -218,12 +218,12 @@
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f100zz6" version="1">Hematic Exultation</content>
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f100zzf" version="1">Affected creature is forcibly tearing the blood from all nearby creatures. For three turns, each enemy within [1] of them erupts in blood, halving their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and taking [2] at the beginning of each of their turns.</content>
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10zzz6" version="1">Hematic Exultation</content>
-	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10zzzf" version="1">Affected creature is having the blood forcibly torn from it's body. It's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved, and it takes [2] at the beginning of each of their turns.</content>
+	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10zzzf" version="1">Affected creature is having the blood forcibly torn from it's body. It's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved, and it takes [1] at the beginning of each of their turns.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RADIANT SOUL</content>
 
 	<content contentuid="75afaf5bbeec48939102d9037449bef500000" version="1">Radiant Bloom</content>
-	<content contentuid="75afaf5bbeec48939102d9037449bef50000z" version="1">Power flows visibly through you in cascading waves of illuminated brilliance. Radiant and pure, yet effortlessly frightening to those who behold it. A reincarnation of the "Ever Brilliant Mako".&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Healer/Support</content>
+	<content contentuid="75afaf5bbeec48939102d9037449bef50000z" version="1">Power flows visibly through you in cascading waves of illuminated brilliance. Radiant and pure, yet effortlessly frightening to those who behold it. A reincarnation of the "Ever Brilliant Mako".&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Support</content>
 
 	<content contentuid="75afaf5bbeec48939102d9037449bef500001" version="1">Soulfire Spark</content>
 	<content contentuid="75afaf5bbeec48939102d9037449bef50000a" version="1">While in combat, casting a Spell causes you to emit an aura across [1]. The duration of this aura is equal to the level of Spell that you cast. Allies within the aura regain [2] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of their turns. Enemies within the aura take [3] at the start of their turns.</content>
@@ -262,7 +262,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SHADE WALKER</content>
 
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8ecfcc3" version="1">Shade Walker</content>
-	<content contentuid="hec37ca35g480cg4de1gae65g3986c3592aa7" version="1">You siphon your powers from the Shadowfell itself, the light in your soul snuffed out by an unsettling darkness.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Summoner</content>
+	<content contentuid="hec37ca35g480cg4de1gae65g3986c3592aa7" version="1">You siphon your powers from the Shadowfell itself, the light in your soul snuffed out by an unsettling darkness.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Summoner</content>
 
 	<content contentuid="h16312bfag01a2g42f8g943bg3fcba8e00001" version="1">Release the Hounds</content>
 	<content contentuid="hec37ca35g480cg4de1gae65g3986c350000a" version="1">Gain the ability to create clouds of &lt;LSTag Type="Spell" Tooltip="Target_Darkness_Free"&gt;Darkness&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, as well as the ability to summon a &lt;LSTag Type="Spell" Tooltip="Target_HoundOfIllOmen"&gt;Hound of Ill Omen&lt;/LSTag&gt;. Your Hound is capable of cloning itself upon being hit, and grows in strength alongside you as you level.&lt;br&gt;&lt;br&gt;In addition, you gain the ability to see normally in darkness, both magical and non-magical, to a distance of [1].</content>
@@ -308,7 +308,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SOUL OF THE TUNRDAL</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000000" version="1">Soul of the Tundral</content>
-	<content contentuid="9585509cf15f491a86ba751105cc2100zzzzz" version="1">Within your blood rages an endless winter. Those touched by your frozen power are driven into a maddened frenzy beneath the tundra's merciless chill.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="9585509cf15f491a86ba751105cc2100zzzzz" version="1">Within your blood rages an endless winter. Those touched by your frozen power are driven into a maddened frenzy beneath the tundra's merciless chill.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000001" version="1">Winter is Coming</content>
 	<content contentuid="9585509cf15f491a86ba751105cc21000000a" version="1">When dealing damage to an enemy, you deal additional Cold damage equal to your levels in Sorcerer. This bonus does not apply to damage dealt with an off-hand weapon.</content>
@@ -332,7 +332,7 @@
 
 	<content contentuid="ha09bcdedg1cb1g4a53ga72dgb9bf9bbb3cb0" version="1">Volcanist</content>
 	<content contentuid="hd862715eg884cg4039ga1a6g59c36e569ddf" version="2">Volcanist</content>
-	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" version="3">Searing heat broils within you, an ancient and irrevocable flame as unpredictable as it is uncontrollable.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="h6cc6b6fega327g411ag9b33g098e0c8636b1" version="3">Searing heat broils within you, an ancient and irrevocable flame as unpredictable as it is uncontrollable.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h14011b40g647cg4560g8a71g0ddec16c4753" version="2">Magmatic</content>
 	<content contentuid="h476f70abgabb6g4b83g9c5dg0c73cbe34904" version="14">When dealing damage to an enemy or item, you ignore Fire based &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt;. At the start of each of your turns, and upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.</content>
@@ -365,7 +365,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WILD MAGIC</content>
 
 	<content contentuid="h04ded653gcf76g4ad4gaa36g523db04a9487" version="1">Wild Magic</content>
-	<content contentuid="hedfe3092ga840g4e10gb962g092566a89852" version="2">Your powers come from ancient forces of chaos. They churn within you - waiting to burst free at any time.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Support</content>
+	<content contentuid="hedfe3092ga840g4e10gb962g092566a89852" version="2">Your powers come from ancient forces of chaos. They churn within you - waiting to burst free at any time.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Support</content>
 
 	<content contentuid="h63415200gb6c7g41c2g9d2dg8a0341e5afe3" version="1">Unruly magic sparks and fizzes through your veins.&lt;br&gt;&lt;br&gt;When casting Spells at level one or higher, you have the potential to trigger a positive surge of uncontrollable magic, manifesting in random outbursts around and within you. The Spell cast must cost a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; in order to trigger a surge.</content>
 

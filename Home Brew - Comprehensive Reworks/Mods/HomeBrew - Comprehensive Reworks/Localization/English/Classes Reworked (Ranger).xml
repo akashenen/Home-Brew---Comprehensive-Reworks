@@ -67,7 +67,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">BEASTMASTER</content>
 
 	<content contentuid="hd3d0e53ag76a8g4275g98b2g751f2c421b8a" version="1">Beast Master</content>
-	<content contentuid="h2accac8fg28eeg4d85gb412g2f6f8ec2d756" version="1">You've chosen to cultivate the bond with your beastial companion, a choice that strengthens both of you in equal measure.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Summoner/Support</content>
+	<content contentuid="h2accac8fg28eeg4d85gb412g2f6f8ec2d756" version="1">You've chosen to cultivate the bond with your beastial companion, a choice that strengthens both of you in equal measure.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Summoner/Support</content>
 
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0dfy4f2" version="3">Nevermore</content>
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0df6568" version="3">You will not provoke attacks of opportunity.</content>
@@ -113,7 +113,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">GLOOM STALKER</content>
 
 	<content contentuid="hf8ac8ef1g7fceg417bg8342g2203918207b3" version="2">Gloom Stalker</content>
-	<content contentuid="h85a6de72gd0a0g4374g8823ge103a79fe7bf" version="2">Emerging like a horrible gift from the envelope of darkness and shadow, you ambush and put down your foes before they can even scream.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="h85a6de72gd0a0g4374g8823ge103a79fe7bf" version="2">Emerging like a horrible gift from the envelope of darkness and shadow, you ambush and put down your foes before they can even scream.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="hfad5bf4eg0236g4af2g970agfdc9c73a5452" version="2">Gloom Stalker's Initiative</content>
 	<content contentuid="hafc743f7g5d89g4175g80bfg869c346a9889" version="9">Gain a +[1] bonus to Initiative. In addition, you are able to see in the dark, both magical and non-magical, up to [2]. In addition, you gain the ability to make a basic weapon attack which will always result in a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
@@ -147,7 +147,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">HUNTER</content>
 
 	<content contentuid="h2969047eg0207g40f8gb6dfg0b261003ebf2" version="1">Hunter</content>
-	<content contentuid="h6b51c4d5g4778g4f65g999eg5fe728ecf064" version="1">You seek the most dangerous prey in Faerûn, from ancient dragons to massive hordes of undead, and excel at slaying them all.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="h6b51c4d5g4778g4f65g999eg5fe728ecf064" version="1">You seek the most dangerous prey in Faerûn, from ancient dragons to massive hordes of undead, and excel at slaying them all.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d16a98709e9f9a2" version="2">Natural Hunter</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901b12a5113fe8115" version="2">When you deal damage with a weapon, you apply one stack of &lt;LSTag Type="Status" Tooltip="HUNTED"&gt;Hunted&lt;/LSTag&gt;. Each stack of Hunted will reduce your targets &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1], up to a maximum of [2].&lt;br&gt;&lt;br&gt;In addition, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy you are currently Hunting will restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
@@ -180,7 +180,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00000" version="1">Mire Mist</content>
-	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" version="1">Through stagnant waters, decay takes root. Through drifting vapors and creeping corrosion, the wilderness slowly consumes all who trespass within it.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Support</content>
+	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bfzzzzz" version="1">Through stagnant waters, decay takes root. Through drifting vapors and creeping corrosion, the wilderness slowly consumes all who trespass within it.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
 
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf00001" version="1">Caustic Mire</content>
 	<content contentuid="5eeb4066c9f647b2909d68aabc4ac1bf0000a" version="1">Both you and your Ranger Companions deal an additional [1] when dealing damage to an enemy. In addition, each time that you deal damage, you apply one stack of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
@@ -203,7 +203,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SWARMKEEPER</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e9ba758" version="1">Swarmkeeper</content>
-	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e23d8d" version="1">You have forged a deep connection with your natural surroundings, forming magical bonds with swarms of nature spirits.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Healer/Support</content>
+	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e23d8d" version="1">You have forged a deep connection with your natural surroundings, forming magical bonds with swarms of nature spirits.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Healer/Support</content>
 	<content contentuid="hc8f4441fg5384g43e6gb731ged328dd1927e" version="1">Spirits of nature flock to your company.&lt;br&gt;Bonds which bind you to the Feywild.&lt;br&gt;Adventures which bind you to your companions.</content>
 
 	<content contentuid="hd96c8a80g18f3g49c6ga651gdf1fa48000z1" version="2">Recall Swarm</content>
@@ -254,7 +254,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">TWINFANG</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00000" version="1">Twinfang</content>
-	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000z" version="1">At your side moves a second shadow — silent, patient, and lethal. When you strike, your companion answers, and together you descend upon your quarry with the certainty of twin fangs closing around the throat.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000z" version="1">At your side moves a second shadow — silent, patient, and lethal. When you strike, your companion answers, and together you descend upon your quarry with the certainty of twin fangs closing around the throat.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f00001" version="1">Closing Bite</content>
 	<content contentuid="55a0054c23a247a29697b3a59e5eba7f0000a" version="1">When you make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, you may make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>

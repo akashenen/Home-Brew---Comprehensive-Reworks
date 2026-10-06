@@ -60,7 +60,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE ELEMENTS</content>
 
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff0000" version="2">Circle of the Elements</content>
-	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ffzzzz" version="2">You attune yourself to nature through four distinct elements - air, earth, fire, and water. Through their balance, you draw strength and fortitude.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ffzzzz" version="2">You attune yourself to nature through four distinct elements - air, earth, fire, and water. Through their balance, you draw strength and fortitude.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff0001" version="2">Cycle of Balance</content>
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff000a" version="2">Each turn while in combat, you cycle through one of the four seasons. Each season grants two passive damage buffs equal to your levels in Druid divided by two, as well as damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; corresponding to your seasonal damage types. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;In addition, each season allows you to morph into a corresponding elemental Myrmidon.</content>
@@ -117,7 +117,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE LAND</content>
 
 	<content contentuid="ha9c297f0g9d10g4342gbc1eg39233f659d37" version="2">Circle of the Land</content>
-	<content contentuid="h8b9c3fa4g3e32g4913gbbe9g0c33b209865f" version="2">You channel the natural arcana flowing through the earth and creatures atop it to cast powerful druidic magic.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Summoner</content>
+	<content contentuid="h8b9c3fa4g3e32g4913gbbe9g0c33b209865f" version="2">You channel the natural arcana flowing through the earth and creatures atop it to cast powerful druidic magic.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Summoner</content>
 
 	<content contentuid="ha585d015g08f6g4c58ga0cdg57ff4s5d884f" version="2">DRUIDCOMPANION</content>
 	<content contentuid="ha585d015g08fff6s8d4f512557ff4s5d884f" version="2">DRUIDCOMPANIONTAGFORDRUIDOVERHAUL</content>
@@ -166,7 +166,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE MOON</content>
 
 	<content contentuid="h282704e7g650dg4a64gbf0dgfb5b681f3be5" version="2">Circle of the Moon</content>
-	<content contentuid="hcd5ebe30g081fg4a7agba99g38d237697789" version="2">Your form is mutable as the mercurial moon, letting you shift effortlessly into various beasts.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
+	<content contentuid="hcd5ebe30g081fg4a7agba99g38d237697789" version="2">Your form is mutable as the mercurial moon, letting you shift effortlessly into various beasts.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="h2b3423cfg3562g4217g9873g725ds6d2e584" version="2">Moonbreak</content>
 	<content contentuid="h9496db0cgc952g4937g90b7g666sd895e854" version="2">You gain access to ten &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; forms. While assuming one of these ten Wildshape forms, you can swap to any of them as a free action. When swapping to another Wildshape form in this manner, you retain the same percentage of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of the form you swapped from.</content>
@@ -200,7 +200,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE SHADOWS</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800000" version="2">Circle of the Shadows</content>
-	<content contentuid="5126c10823d3434e8286ee66c19e5698zzzzz" version="2">Death is the most natural occurance within nature. From within the shadows, you observe this fact in the truest of form, and guide others to a more intimate understanding.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698zzzzz" version="2">Death is the most natural occurance within nature. From within the shadows, you observe this fact in the truest of form, and guide others to a more intimate understanding.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800001" version="2">Displaced Nature</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e56980000a" version="2">Gain the ability to shift into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beast&lt;/LSTag&gt; at will. In addition, you gain the ability to see in magical darkness out to a range of [1].</content>
@@ -228,7 +228,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE SPORES</content>
 
 	<content contentuid="heb734024ga6c3g45f9gadceg2003f8ae53dc" version="2">Circle of the Spores</content>
-	<content contentuid="hbc48de91g0cb1g48ecgad10ge728d2fd32a8" version="3">Viewing death, necrosis, fungal growth, and sporulation as just another part of life, you can manipulate such spores to augment yourself and harm your foes.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Summoner</content>
+	<content contentuid="hbc48de91g0cb1g48ecgad10ge728d2fd32a8" version="3">Viewing death, necrosis, fungal growth, and sporulation as just another part of life, you can manipulate such spores to augment yourself and harm your foes.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Summoner</content>
 
 	<content contentuid="hb78b19e9gaad1g4af7g9b15g542ff2b23e87" version="1">Fungal Symbiosis Charge</content>
 	<content contentuid="h863ad928g3591g4108g96a9g739e0858934e" version="1">Point used to cast &lt;LSTag Type="Spell" Tooltip="Shout_SymbioticEntity"&gt;Symbiotic Entity&lt;/LSTag&gt;.</content>
@@ -279,7 +279,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE STARS</content>
 
 	<content contentuid="h10443accg5dd7g465dgacc8g5fb0edc93e92" version="1">Circle of the Stars</content>
-	<content contentuid="h7e89ecfbg98c8g4a5cgba23gd5416fb16529" version="1">You are guided by the infinite mysteries of the cosmos. It is through your understanding of the stars that your druidic magic gains its potency.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Healer</content>
+	<content contentuid="h7e89ecfbg98c8g4a5cgba23gd5416fb16529" version="1">You are guided by the infinite mysteries of the cosmos. It is through your understanding of the stars that your druidic magic gains its potency.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Healer</content>
 	<content contentuid="h4bc7bfdbgdd94g47ccg840bgbf81be39a1c2" version="1">Star Map</content>
 	<content contentuid="h92349329g26d7g41a0g8a9ag7fc79f05a472" version="1">A map of the stars you can use as a resource while guided by a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;.</content>
 
@@ -342,11 +342,11 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE TOTEMS</content>
 
 	<content contentuid="h49877a78e3714f9687895fce355936a0e3ed" version="1">Circle of the Totemic</content>
-	<content contentuid="h6bc147be1052483db7e25dc2a5bfb36a0g65" version="1">You harness the power of nature by calling forth numerous idols, each imbued with their own elemental forces.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Summoner/Support</content>
+	<content contentuid="h6bc147be1052483db7e25dc2a5bfb36a0g65" version="1">You harness the power of nature by calling forth numerous idols, each imbued with their own elemental forces.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Summoner/Support</content>
 
 	<content contentuid="h914cc0ff629249ce832ff01ea1b276846da5" version="1">Requires an &lt;LSTag Type="Status" Tooltip="TOTEMIST_ELEMENTAL_COMMUNION_BASE"&gt;Elemental Communion&lt;/LSTag&gt;.</content>
 	<content contentuid="h874858f9b0474adca6365d486f5e3d6f1a6c" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; You may conjure three of this totem at any given time.</content>
-	<content contentuid="hc179d8c93d8b485b863ac0a12d6e07acd298" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; You have already conjured three of this totem.</content>
+	<content contentuid="hc179d8c93d8b485b863ac0a12d6e07acd298" version="1">You already have three totems conjured.</content>
 	<content contentuid="h7ce4ea8b27294504bba9fa46869cd3f96f6g" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; You may conjure one of these totems at any given time.</content>
 	<content contentuid="h09aca4905e894978b501a9bee5ac2017gf28" version="1">Totem Ability</content>
 	<content contentuid="h7f47975775534742b7d25a8d9a510416ge48" version="1">This totem will trigger an effect at the beginning of its turns.</content>
@@ -467,7 +467,7 @@
 
 
 	<content contentuid="83fafe237f6740dea359526646fb6a2100000" version="1">Circle of the Venom</content>
-	<content contentuid="83fafe237f6740dea359526646fb6a21zzzzz" version="1">You wield poison and silk to trap and dismantle your prey. Within you grows something monstrous and metamorphic, waiting to be unleashed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a21zzzzz" version="1">You wield poison and silk to trap and dismantle your prey. Within you grows something monstrous and metamorphic, waiting to be unleashed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="83fafe237f6740dea359526646fb6a2brood1" version="1">Bite</content>
 	<content contentuid="83fafe237f6740dea359526646fb6a2brooda" version="1">Bite a creature and potentially &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; them.</content>
@@ -668,13 +668,13 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000a" version="1">When a creature damages you with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, deal Piercing damage to them equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200002" version="1">Combat's Harvest</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000b" version="1">Upon consuming a healing potion, all allies within [1] of you also receive the effects.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000b" version="1">Upon consuming a healing potion, all creatures within [1] of you also receive the effects.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200003" version="1">Earthern Sentinel</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000c" version="1">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a Spell, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrify&lt;/LSTag&gt; your target for one turn.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200004" version="1">Feral Precision</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000d" version="1">Gain a +2 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;This bonus is doubled while assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TOTEMIST_ELEMENTAL_COMMUNION_BASE"&gt;Elemental Communion&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000d" version="1">Gain a +2 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make. In addition, your &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; is also increased by 1.&lt;br&gt;&lt;br&gt;This bonus is doubled while assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TOTEMIST_ELEMENTAL_COMMUNION_BASE"&gt;Elemental Communion&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200005" version="1">Feral Resilience</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000e" version="1">Upon utilizing a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charge&lt;/LSTag&gt; to assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; or summon your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt;, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your Druid level multiplied by four.</content>
@@ -717,25 +717,25 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000l" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold, Lightning, and Poison damage.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200013" version="1">Nature's Wrath</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000m" version="1">Use your &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charges to deal an additional +1d12 Cold, Lightning, or Poison damage on any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; made with a weapon.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000m" version="1">As a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, deal an additional +1d4 Cold, Lightning, or Poison damage on any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; made with a weapon.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000z1" version="1">Elemental Fury: Cold</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000za" version="1">Deal an additional +1d12 Cold damage.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000za" version="1">Deal an additional +1d4 Cold damage.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000z2" version="1">Elemental Fury: Poison</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000zb" version="1">Deal an additional +1d12 Poison damage.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000zb" version="1">Deal an additional +1d4 Poison damage.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000z3" version="1">Elemental Fury: Lightning</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000zc" version="1">Deal an additional +1d12 Lightning damage.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d34912000zc" version="1">Deal an additional +1d4 Lightning damage.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200014" version="1">Pack Leader</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000n" version="1">Damaging an enemy potentially &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goads&lt;/LSTag&gt; them into attacking you.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200015" version="1">Primal Bloodletter</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000o" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TOTEMIST_ELEMENTAL_COMMUNION_BASE"&gt;Elemental Communion&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned, you have a chance to inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your target when you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000o" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TOTEMIST_ELEMENTAL_COMMUNION_BASE"&gt;Elemental Communion&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned, you have a chance to inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your target when damaging them.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200016" version="1">Primal Surge</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000p" version="1">Deal additional damage to enemies while &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshaped&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200017" version="1">Primal Takedown</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000q" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TOTEMIST_ELEMENTAL_COMMUNION_BASE"&gt;Elemental Communion&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned, you have a chance to knock your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; when you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000q" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;, while &lt;LSTag Type="Status" Tooltip="SYMBIOTIC_ENTITY"&gt;Symbiotic Entity&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TOTEMIST_ELEMENTAL_COMMUNION_BASE"&gt;Elemental Communion&lt;/LSTag&gt; is active, or while your &lt;LSTag Type="Spell" Tooltip="Target_ConjureDryad"&gt;Dryad&lt;/LSTag&gt; is currently summoned, you have a chance to knock your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; when damaging them.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200018" version="1">Shapechanger's Versatility</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000r" version="1">Outside of combat, you may &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; as a free action.</content>

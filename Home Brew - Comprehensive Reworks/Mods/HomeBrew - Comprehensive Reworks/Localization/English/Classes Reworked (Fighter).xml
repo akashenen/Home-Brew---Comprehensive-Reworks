@@ -19,7 +19,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ARCANE ARCHER</content>
 
 	<content contentuid="h77a3f5afg2328g47c0gb00agffee653d9a1e" version="1">Arcane Archer</content>
-	<content contentuid="h85ff75b5g7ec5g445dga8ffgf95bbb8f5cbc" version="1">You are capable of infusing the weave into your attacks, providing your archery with a supernatural quality - and your foes something to fear.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Support</content>
+	<content contentuid="h85ff75b5g7ec5g445dga8ffgf95bbb8f5cbc" version="1">You are capable of infusing the weave into your attacks, providing your archery with a supernatural quality - and your foes something to fear.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Support</content>
 	<content contentuid="h5c182d74g17e4g41d7g8f76g94f7b210feea" version="1">Arcane Quiver</content>
 	<content contentuid="hf1b82802gb809g4e09gbb73gcb06c780034d" version="2">Through your Arcane Quiver, you tap into the weave itself, enabling you to infuse your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; with various types of magic.</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9xyzab" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
@@ -147,8 +147,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CHAMPION</content>
 
-	<content contentuid="h8df49fb1g13acg4b8fgb3dfg7d5eebc5dd34" version="3">You approach the complex problems posed by combat with one distinctly effective solution - you will take anything they can throw at you, and protect your allies while doing so.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Support/Tank</content>
-	<content contentuid="h6bdfd618g15b3g45c9g8a0egd02cecb1fe7a" version="1">You approach the complex problems posed by combat with one distinctly effective solution - you will take anything they can throw at you, and protect your allies while doing so.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Support/Tank</content>
+	<content contentuid="h8df49fb1g13acg4b8fgb3dfg7d5eebc5dd34" version="3">You approach the complex problems posed by combat with one distinctly effective solution - you will take anything they can throw at you, and protect your allies while doing so.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support/Tank</content>
+	<content contentuid="h6bdfd618g15b3g45c9g8a0egd02cecb1fe7a" version="1">You approach the complex problems posed by combat with one distinctly effective solution - you will take anything they can throw at you, and protect your allies while doing so.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Support/Tank</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a69a454" version="1">Challenger</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a99a787" version="8">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all forms of physical damage, and when damaging an enemy, you have a chance to &lt;LSTag Type="Status" Tooltip="CHALLENGERS_CALL"&gt;Challenge&lt;/LSTag&gt; them. However, enemies will consider you to be a preferred target. This can be toggled at any time.</content>
@@ -181,7 +181,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">DRAGOON</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00000" version="3">Dragoon</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur00000" version="1">Draconic strength begets it's own crucible - the wingbeats of wizened beasts who now lend you their power drum a march of war ever closer toward your victories.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur00000" version="1">Draconic strength begets it's own crucible - the wingbeats of wizened beasts who now lend you their power drum a march of war ever closer toward your victories.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00001" version="3">Body of the Lancer</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000a" version="1">Leap upon your enemies from afar with &lt;LSTag Type="Spell" Tooltip="Target_SkyboundDive"&gt;Draconic Dive&lt;/LSTag&gt;.</content>
@@ -218,7 +218,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ELDRITCH KNIGHT</content>
 
 	<content contentuid="h96aff5ecga228g472eg9121gfaa39b44864e" version="1">Eldritch Knight</content>
-	<content contentuid="hb737d83fg2e33g4664g98a6g3c2381c29b0a" version="1">You are a warrior of spell and sword, weaving incantations that supplement your extensive martial expertise.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="hb737d83fg2e33g4664g98a6g3c2381c29b0a" version="1">You are a warrior of spell and sword, weaving incantations that supplement your extensive martial expertise.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23209a69asd9" version="1">Call of the Old One</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204a9288rd" version="8">When making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, deal additional damage equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
@@ -246,7 +246,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">FRONTIER KNIGHT</content>
 
-	<content contentuid="h7c7985f4g0ff2g4097ga2b5g220983d7561c" version="1">As a paragon of tactical superiority, you employ a wide array of combat techniques to dominate every fight.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="h7c7985f4g0ff2g4097ga2b5g220983d7561c" version="1">As a paragon of tactical superiority, you employ a wide array of combat techniques to dominate every fight.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0new1" version="2">Cooldown - Frontier: Advantageous Strike</content>
 	<content contentuid="58ff3f1bd299431ab58216d6d561c66b0newa" version="2">Affected creature will be able to use &lt;LSTag Type="Spell" Tooltip="Target_AdvantageousStrike_Frontier"&gt;Frontier: Advantageous Strike&lt;/LSTag&gt; again upon the expiration of this status.</content>
@@ -460,7 +460,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">PALISADE</content>
 
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400000" version="1">Palisade</content>
-	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4zzzzz" version="1">The best offense is a good defense, and you've taken the adage to heart. Shield in hand, you march forward, ready to bash any who challenge you into a fine mist.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
+	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b4zzzzz" version="1">The best offense is a good defense, and you've taken the adage to heart. Shield in hand, you march forward, ready to bash any who challenge you into a fine mist.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 			
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b400001" version="1">Reinforced Strikes</content>
 	<content contentuid="0e3d63a2603a455a9f70a7874a87c2b40000a" version="1">Dealing damage to an enemy with a shield deals additional damage equal to your &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt;.</content>

@@ -254,7 +254,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6" />
                     <attribute id="SpellList" type="guid" value="c98f2011-31e1-4e9a-8061-62c8679c645e" />
                     <attribute id="UUID" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
-                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle;Wand"/>
+                    <attribute id="ValidSomaticEquipmentList" type="LSString" value="Dagger;Longsword;Rapier;Scimitar;Shortsword;Sickle;Wand;Drum;Flute;Lute;Lyre;Violin"/>
                     <children>
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="d93434bd-6b71-4789-b128-ee24156057cc" />

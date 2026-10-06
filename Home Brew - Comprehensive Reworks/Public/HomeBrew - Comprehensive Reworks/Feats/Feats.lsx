@@ -761,7 +761,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WizardArcaneWarden"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ArcaneWard;ArcaneWard_Cast_Yokebreaker;ProjectedWard;Retaliatory_Ward_Yokebreaker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ArcaneWard;ArcaneWard_Cast_Yokebreaker;ArcaneWard_Damaged_Yokebreaker;ProjectedWard;Retaliatory_Ward_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Wizard&apos;)"/>
                     <attribute id="UUID" type="guid" value="00ffa9e2-c8be-44b5-bc72-25293a715430"/>
                 </node>

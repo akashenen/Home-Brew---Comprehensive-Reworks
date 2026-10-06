@@ -42,7 +42,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">BEASTHEART</content>
 
 	<content contentuid="h71cf10b1gadf1g4be5gbe40g466322d942f4" version="2">Beastheart</content>
-	<content contentuid="h559c2233gf74fg4fcfg9408gadcb1cba6316" version="6">Your attunement with nature and its beasts inspires your rage, empowering you with supernatural might.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
+	<content contentuid="h559c2233gf74fg4fcfg9408gadcb1cba6316" version="6">Your attunement with nature and its beasts inspires your rage, empowering you with supernatural might.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f35612" version="14">Rage: Bestial Heart</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e5995a6d84" version="2">A primal anger lingers within your mind, and beasthood threatens to take hold. You gain access to five Bestial Hearts, each of which have unique passive benefits and actions.</content>
@@ -131,7 +131,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">BERSERKER</content>
 
 	<content contentuid="hc337205dg93e1g4956g9924gb7d641b6e211" version="1">Berserker</content>
-	<content contentuid="h5fa8a376gee1cg43e2g8f36g12129d82a292" version="9">Violence is both a means and an end. You follow a path of untrammelled fury, slick with blood, as you thrill in the chaos of battle, heedless of your own well-being.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
+	<content contentuid="h5fa8a376gee1cg43e2g8f36g12129d82a292" version="9">Violence is both a means and an end. You follow a path of untrammelled fury, slick with blood, as you thrill in the chaos of battle, heedless of your own well-being.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage</content>
 
 	<content contentuid="he6b4dabdg3471g4f6fg982cgd435a6f21a62" version="14">Rage: Frenzy</content>
 	<content contentuid="h4412581eg59ccg45cega74cg82e5995w9d85" version="2">An uncontrollable ferocity threatens to overtake you, boiling over with pure malice. You gain access to a Frenzy with which to lay bare your pure, destructive wrath.</content>
@@ -163,7 +163,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">FROSTBREAKER</content>
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef803" version="1">Frostbreaker</content>
-	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880c" version="2">Amidst frigid hilltops and glacial peaks, you have honed your rage, now controlled and enduring.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880c" version="2">Amidst frigid hilltops and glacial peaks, you have honed your rage, now controlled and enduring.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Damage</content>
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd55f45001" version="1">Rage: Frostbreaker</content>
 	<content contentuid="hc526s54df84ef6s84d68f4s2e4f6s6d8f00a" version="2">Enrage, wreathing yourself in the frigid air where you once tempered your animosity.</content>
@@ -193,7 +193,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">GIANTS BLOOD</content>
 
 	<content contentuid="h2e3d93fegae50g46bbga358g6a2471b4c7a2" version="2">Giant's Blood</content>
-	<content contentuid="hca7c2a37g9a04g44f9gba90gb49b269041a6" version="1">You carry the blood of Giants, invoking their might and staggering size alike by drawing strength from the same primordial forces that fuel them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
+	<content contentuid="hca7c2a37g9a04g44f9gba90gb49b269041a6" version="1">You carry the blood of Giants, invoking their might and staggering size alike by drawing strength from the same primordial forces that fuel them.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Damage/Tank</content>
 
 	<content contentuid="hf0908836g8eb4g4de8gaa00g91f1813a9a4e" version="1">Rage: Giant's Blood</content>
 	<content contentuid="hba6e0170g05cag4395ga5c4g516c15eb4413" version="3">Enrage and drastically increase in both size and musculature.</content>
@@ -232,7 +232,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ROSEMOURN</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00000" version="2">Rosemourn</content>
-	<content contentuid="e45b631605924e679e7ea6024bc4911f0000z" version="1">Your fury runs unconscionably deep, resting soundly in scars of the past. The briars of that past help you to forge both strength and resilience.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Tank</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000z" version="1">Your fury runs unconscionably deep, resting soundly in scars of the past. The briars of that past help you to forge both strength and resilience.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Tank</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00001" version="2">Briar Blood</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f0000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Rage_Rosemourn"&gt;Rage: Briar Blood&lt;/LSTag&gt;.</content>
@@ -269,7 +269,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">WILD SOUL</content>
 
 	<content contentuid="h40aa7e41g978dg4da0g8da0gc654530f34d7" version="1">Wild Soul</content>
-	<content contentuid="hde3206d4g49dag4455gbf1ag874068034c6a" version="4">The wild influence of magic has transformed you, suffusing you with an arcane power that churns within you, waiting to be released.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Support</content>
+	<content contentuid="hde3206d4g49dag4455gbf1ag874068034c6a" version="4">The wild influence of magic has transformed you, suffusing you with an arcane power that churns within you, waiting to be released.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Suggested Role(s): Control/Support</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c855s" version="14">Rage: Wild Soul</content>
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3518eb" version="2">A magical energy roils inside of you, ready to erupt. You are able to cast Spells, even while enraged. Additionally, Spells you cast at level one or higher have the potential to trigger a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
